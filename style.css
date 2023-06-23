@@ -4,13 +4,12 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
     margin: 0;
+    height: 100%;
 }
-
 .container {
     display: flex;
     justify-content: center;
 }
-
 .main-header {
     display: flex;
     background: #161616;
@@ -20,24 +19,19 @@ body {
     margin: 40px;
     align-items: center;
 }
-
 .header-info {
     color: white;
     margin: 111px;
-
 }
-
 .header-title {
     font-weight: 700;
     font-size: 60px;
 }
-
 .header-description {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 30px;
 }
-
 .header-button {
     text-decoration: none;
     color: white;
@@ -47,9 +41,7 @@ body {
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
-
 }
-
 .header-images {
     width: 100%;
     height: 100%;
@@ -67,7 +59,15 @@ body {
     left: 140px;
     padding: 20px;
 }
-
+.group:hover {
+    color: whitesmoke;
+}
+.item:hover {
+    font-weight: 700;
+    background-color: #b30000;
+    font-size: 18px;
+    box-shadow: 5px 10px 10px white;
+}
 .match-items {
     display: flex;
     justify-content: center;
@@ -76,18 +76,19 @@ body {
     padding: 15px;
     margin-bottom: 20px;
 }
-
 .group {
     color: black;
     text-decoration: none;
 }
-
+.group.empty:hover {
+    color: lightblue;
+}
 .empty {
     color: white;
 }
 
 .last {
-    background: tomato;
+    background: #DD0000;
 }
 
 /*-----------------
@@ -98,7 +99,6 @@ body {
     gap: 40px;
     margin-top: -10px;
 }
-
 .live-info {
     width: 312px;
     height: 312px;
@@ -107,14 +107,12 @@ body {
     box-sizing: border-box;
     box-shadow: 5px 10px 8px #888888;
 }
-
 .live {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     align-items: center;
 }
-
 .second-section {
     display: flex;
     justify-content: center;
@@ -123,7 +121,6 @@ body {
     gap: 10px;
     margin-top: 70px;
 }
-
 .button {
     text-decoration: none;
     width: 100px;
@@ -135,6 +132,50 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
 }
-.info{
+.info {
     margin-left: 10px;
+}
+/*---------------------
+ footer styles
+--------------- --------------*/
+.footer-goal {
+    width: 100%;
+    height: 444px;
+    left: 0px;
+    top: 2090px;
+    background: #161616;
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+footer{
+   margin-top: 400px;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-weight: 400;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 50px;
+}
+.heading-goal{
+    text-align: center;
+}
+.footer-list li{
+    list-style: none;
+}
+.goal{
+    margin-bottom: 100px;
+}
+hr{
+  border: 1px solid black;
+  margin: 0 200px;
+}
+.heading-goal{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    
 }

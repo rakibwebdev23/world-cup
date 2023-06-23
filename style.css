@@ -157,7 +157,7 @@ footer{
     gap: 40px;
     font-weight: 400;
     font-size: 12px;
-    color: gray;
+    color: #aaaa9e;
     margin-bottom: 50px;
 }
 .heading-goal{
@@ -170,7 +170,7 @@ footer{
     margin-bottom: 100px;
 }
 hr{
-  border: 1px solid black;
+  border: 1px solid #474745;
   margin: 0 200px;
 }
 .heading-goal{
